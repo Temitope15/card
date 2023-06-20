@@ -1,0 +1,55 @@
+main {
+  background-color: rgb(36, 49, 85);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: rgb(31, 35, 53);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 20px;
+}
+.img {
+  opacity: 0.6;
+}
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+span,
+footer p {
+  color: rgb(199, 167, 196);
+}
+span:hover {
+  font-size: 1.7vw;
+  cursor: pointer;
+}
+.text {
+  padding: 50px;
+  font-size: 1vw;
+  
+  
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  
+  font-variant: small-caps;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+footer h2:hover {
+  font-size: 1.7vw;
+  cursor: pointer;
+}
